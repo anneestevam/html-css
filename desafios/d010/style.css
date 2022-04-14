@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(./fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #83E1AD;
+    font-family: normal 15pt Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(#2FA866, #063D1E);
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    padding: 25px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+nav{
+    background-color: #063D1E;
+    font: bold 1em Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;  
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #2FA866;
+    border-radius: 4px;
+}
+
+main{
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+main h1{
+    font-family: "idroid";
+    color: #2FA866;
+}
+
+main h2{
+    font-family: "idroid";
+    color: #2FA866;
+    background-image: linear-gradient(to right, #C5EBD6, #ffffff);
+}
+
+main p{
+    text-align: justify;
+    text-indent: 3em;
+    padding: 10px 0px 10px 0px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    position: relative;
+    background-color: #063D1E;
+    height: 0px;
+    margin-left: -20px;
+    margin-left: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h3 {
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+
+aside p{
+    padding: 8px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+aside a{
+    font-weight: bold;
+    color: #2FA866;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #063D1E;
+    padding: 8px;
+}
+
+footer p {
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #83E1AD;
+    text-align: center;
+}
